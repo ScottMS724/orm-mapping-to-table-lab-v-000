@@ -16,7 +16,7 @@ class Student
         grade TEXT 
         )
       SQL 
-      SDB[:conn].execute(sql) 
+      DB[:conn].execute(sql) 
   end 
   
   
